@@ -25,14 +25,27 @@ Este projeto em wxPython é uma aplicação de interface gráfica que combina di
    - **Mostrar Seleção:** Ao clicar neste botão, uma caixa de mensagem é exibida mostrando todos os dados coletados dos campos de entrada.
 
 ## COMO USAR?
-1. **Preenchimento de Dados:**
+1. **Instalando as dependências:**
+   - Antes de executar o aplicativo, certifique-se de instalar todas as dependências necessárias. No terminal, execute o seguinte comando para instalar as dependências listadas no arquivo `requirements.txt` no diretório: `CODIGO`:
+   ```bash
+   pip install -r requirements.txt
+   ```
+   - Isso instruirá o pip a ler o arquivo requirements.txt e instalar todas as dependências listadas.
+
+2. **Execução do Código:**
+   - Execute o arquivo, no diretório `CODIGO`, usando o comando:
+     ```sh
+     python CODIGO.py
+     ```
+
+3. **Preenchimento de Dados:**
    - Insira seu nome no campo de texto "Nome".
    - Escolha seu idioma preferido na combobox "Idioma".
    - Marque os interesses em linguagens de programação que você possui.
    - Escolha seu nível de experiência em programação usando os radiobuttons.
    - Utilize o slider para selecionar sua idade.
 
-2. **Operações com Arquivos e Diretórios:**
+4. **Operações com Arquivos e Diretórios:**
    - **Abrir Arquivo:**
      - Clique no botão "Abrir Arquivo".
      - Selecione um arquivo na janela de diálogo que aparece.
@@ -42,11 +55,11 @@ Este projeto em wxPython é uma aplicação de interface gráfica que combina di
      - Selecione um diretório na janela de diálogo que aparece.
      - O caminho do diretório selecionado será exibido no mesmo campo de texto.
 
-3. **Mostrar Seleção:**
+5. **Mostrar Seleção:**
    - Após preencher todos os campos desejados e selecionar arquivos/diretórios se necessário, clique no botão "Mostrar Seleção".
    - Uma caixa de mensagem será exibida mostrando todos os dados que você inseriu e selecionou.
 
-4. **Encerramento do Programa:**
+6. **Encerramento do Programa:**
    - Feche a janela principal para encerrar o programa.
 
 ## CREDITOS:
